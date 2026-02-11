@@ -3,27 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="description" content="LOHIXIS — Premium Web Developer & Digital Architect. 4+ years of high-end WordPress, SEO, and e‑commerce excellence.">
-  <title>LOHIXIS · Web Artisan & Strategist</title>
+  <meta name="description" content="LOHIXIS — Elite Web Developer & Digital Architect. 4+ years of high-end WordPress, SEO & e‑commerce excellence.">
+  <title>LOHIXIS · Web Artisan & Conversion Strategist</title>
   
-  <!-- Modern font stack: Inter (primary) + Montserrat for weight -->
+  <!-- Modern font stack: Inter + Montserrat -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300..700;1,300..700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <!-- Font Awesome 6 (clean, minimal icons) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Font Awesome 6 Pro (clean icons) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <!-- Main style -->
+  <!-- Main style sheet - 2000+ lines of precision design -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- PREMIUM DARK AGENCY PORTFOLIO — LOHIXIS -->
-  <!-- NO FLOATING CHAT, NO WHATSAPP — PURE CONVERSION DESIGN -->
+  <!-- NO FLOATING CHAT, NO WHATSAPP — CONVERSION ENGINE -->
 
-  <!-- STICKY NAVIGATION · progressive blur + micro interaction -->
+  <!-- STICKY NAVIGATION · progressive glassmorphism -->
   <header>
     <nav id="mainNav" class="navbar">
       <div class="nav-container">
-        <!-- EXACT LOGO: LOHIXIS (wordmark) -->
+        <!-- EXACT LOGO: LOHIXIS (premium wordmark) -->
         <a href="#home" class="nav-logo" aria-label="LOHIXIS home">
           <span class="logo-text">LOHIXIS</span>
         </a>
@@ -445,19 +445,20 @@
               </div>
             </div>
           </div>
-          <!-- Right: form with micro-interactions -->
+          <!-- Right: form with micro-interactions & email send -->
           <div class="contact-form">
-            <form action="#" method="post">
+            <form id="contactForm" action="#" method="post">
               <div class="form-row">
-                <input type="text" placeholder="Your name" required id="name">
-                <input type="email" placeholder="Email address" required id="email">
+                <input type="text" placeholder="Your name" required id="name" name="name">
+                <input type="email" placeholder="Email address" required id="email" name="email">
               </div>
-              <input type="text" placeholder="Subject" id="subject">
-              <textarea rows="5" placeholder="Your message" id="message"></textarea>
-              <button type="submit" class="btn btn-primary btn-submit">
+              <input type="text" placeholder="Subject" id="subject" name="subject">
+              <textarea rows="5" placeholder="Your message" required id="message" name="message"></textarea>
+              <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
                 Send Message
                 <span class="btn-glow"></span>
               </button>
+              <div id="formStatus" class="form-status"></div>
             </form>
           </div>
         </div>
@@ -476,7 +477,7 @@
     </div>
   </footer>
 
-  <!-- JAVASCRIPT (lightweight, optimized) -->
+  <!-- JAVASCRIPT (lightweight, advanced, email sender) -->
   <script src="script.js"></script>
 </body>
 </html>
