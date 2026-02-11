@@ -3,275 +3,360 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <title>LOHIXIS · premium web developer</title>
-  <!-- modern fonts: Inter + Montserrat alt -->
+  <meta name="description" content="LOHIXIS — Premium Web Developer & Digital Architect. 4+ years of high-end WordPress, SEO, and e‑commerce excellence.">
+  <title>LOHIXIS · Web Artisan & Strategist</title>
+  
+  <!-- Modern font stack: Inter (primary) + Montserrat for weight -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=Montseralt:wght@500;600;700&display=swap" rel="stylesheet">
-  <!-- font awesome 6 (free icons) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300..700;1,300..700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Font Awesome 6 (clean, minimal icons) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Main style -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- PREMIUM DARK PORTFOLIO · LOHIXIS -->
-  <!-- fixed navbar · transparent to solid -->
-  <nav id="navbar" class="navbar">
-    <div class="nav-container">
-      <div class="nav-logo">
-        <!-- logo: exact provided text, stylized as premium wordmark -->
-        <a href="#home"><span class="logo-text">LOHIXIS</span></a>
-      </div>
-      <ul class="nav-menu">
-        <li><a href="#home" class="nav-link active-link">Home</a></li>
-        <li><a href="#features" class="nav-link">Features</a></li>
-        <li><a href="#services" class="nav-link">Services</a></li>
-        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-        <li><a href="#resume" class="nav-link">Resume</a></li>
-        <li><a href="#blog" class="nav-link">Blog</a></li>
-        <li><a href="#pricing" class="nav-link">Pricing</a></li>
-        <li><a href="#contact" class="nav-link">Contact Me</a></li>
-      </ul>
-      <div class="nav-toggle" id="mobile-toggle">
-        <i class="fas fa-bars"></i>
-      </div>
-    </div>
-  </nav>
+  <!-- PREMIUM DARK AGENCY PORTFOLIO — LOHIXIS -->
+  <!-- NO FLOATING CHAT, NO WHATSAPP — PURE CONVERSION DESIGN -->
 
-  <!-- MAIN CONTENT -->
+  <!-- STICKY NAVIGATION · progressive blur + micro interaction -->
+  <header>
+    <nav id="mainNav" class="navbar">
+      <div class="nav-container">
+        <!-- EXACT LOGO: LOHIXIS (wordmark) -->
+        <a href="#home" class="nav-logo" aria-label="LOHIXIS home">
+          <span class="logo-text">LOHIXIS</span>
+        </a>
+        
+        <div class="nav-menu" id="navMenu">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link active-link">Home</a></li>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#resume" class="nav-link">Resume</a></li>
+            <li><a href="#blog" class="nav-link">Blog</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            <li><a href="#contact" class="nav-link">Contact Me</a></li>
+          </ul>
+        </div>
+        
+        <!-- mobile toggle (elegant) -->
+        <button class="nav-toggle" id="navToggle" aria-label="menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
   <main>
-    <!-- ### HERO / HOME ### -->
+    <!-- ========== HERO · CONVERSION LAYER ========== -->
     <section id="home" class="section hero">
       <div class="container hero-grid">
-        <div class="hero-content fade-up">
-          <span class="hero-welcome">WELCOME TO MY PORTFOLIO</span>
-          <h1 class="hero-title">Hi, I'm FREELANCER LOHIT <br><span class="gradient-text">a Professional Web Designer</span></h1>
-          <p class="hero-desc">I am a professional WordPress Web Designer, Web Developer, Graphic Designer, Digital Marketer, and SEO Expert with over 4 years of experience. I can build all types of websites, including personal blogs, business websites, portfolios, news portals, and fully functional e-commerce websites. Along with web design and development, I specialize in SEO, speed optimization, digital marketing, graphic design, and social media marketing. As an all-in-one solution, I help businesses build a professional, effective, and results-driven online presence.</p>
-          <div class="hero-buttons">
-            <a href="#" class="btn btn-primary"><i class="fas fa-download" style="margin-right: 8px;"></i>Download CV</a>
-            <a href="#contact" class="btn btn-outline">Contact Me</a>
+        <!-- LEFT: CONTENT -->
+        <div class="hero-content" data-animate="fade-up">
+          <span class="hero-intro">WELCOME TO MY PORTFOLIO</span>
+          <h1 class="hero-title">
+            Hi, I'm <span class="name-highlight">FREELANCER LOHIT</span><br>
+            <span class="gradient-text">a Professional Web Designer</span>
+          </h1>
+          <div class="hero-description">
+            <p>I am a professional WordPress Web Designer, Web Developer, Graphic Designer, Digital Marketer, and SEO Expert with over 4 years of experience. I can build all types of websites, including personal blogs, business websites, portfolios, news portals, and fully functional e-commerce websites. Along with web design and development, I specialize in SEO, speed optimization, digital marketing, graphic design, and social media marketing. As an all-in-one solution, I help businesses build a professional, effective, and results-driven online presence.</p>
+          </div>
+          <div class="hero-actions">
+            <a href="#" class="btn btn-primary">
+              <i class="fas fa-download" aria-hidden="true"></i> Download CV
+              <span class="btn-glow"></span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              Contact Me
+              <span class="btn-glow"></span>
+            </a>
           </div>
         </div>
-        <div class="hero-image fade-up delay-1">
+        <!-- RIGHT: PREMIUM PORTRAIT CARD (soft glow, rounded corners) -->
+        <div class="hero-media" data-animate="fade-up" data-delay="150">
           <div class="image-frame">
-            <!-- premium portrait (placeholder, professional) -->
-            <img src="assets/images/portrait-premium.jpg" alt="Freelancer Lohit portrait" onerror="this.src='https://images.pexels.com/photos/5676744/pexels-photo-5676744.jpeg?auto=compress&cs=tinysrgb&w=600'; this.onerror=null;">
+            <!-- professional placeholder with fallback -->
+            <img src="assets/images/portrait-lohit.jpg" alt="Freelancer Lohit – professional web developer" onerror="this.src='https://images.pexels.com/photos/5676744/pexels-photo-5676744.jpeg?auto=compress&cs=tinysrgb&w=600'; this.onerror=null;">
+            <div class="frame-glow"></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ### FEATURES / WHAT I DO ### -->
+    <!-- ========== FEATURES · WHAT I DO (8 CARDS) ========== -->
     <section id="features" class="section features">
       <div class="container">
-        <div class="section-header fade-up">
+        <div class="section-header" data-animate="fade-up">
           <h2>What I <span class="gradient-text">Do</span></h2>
-          <p>Premium services crafted for digital excellence</p>
+          <p class="subhead">Engineering digital excellence — every pixel intentional</p>
         </div>
         <div class="features-grid">
-          <!-- 8 features cards with icons -->
-          <div class="feature-card fade-up">
-            <div class="feature-icon"><i class="fas fa-laptop-code"></i></div>
+          <!-- card 1 -->
+          <div class="feature-card" data-animate="fade-up">
+            <div class="card-icon"><i class="fas fa-laptop-code"></i></div>
             <h3>Web Design & Development</h3>
             <p>Responsive and modern websites using WordPress or custom code.</p>
+            <div class="card-border-glow"></div>
           </div>
-          <div class="feature-card fade-up delay-1">
-            <div class="feature-icon"><i class="fas fa-shopping-cart"></i></div>
+          <!-- card 2 -->
+          <div class="feature-card" data-animate="fade-up" data-delay="50">
+            <div class="card-icon"><i class="fas fa-shopping-cart"></i></div>
             <h3>E-commerce Development</h3>
             <p>WooCommerce / Shopify stores with secure payment integration.</p>
+            <div class="card-border-glow"></div>
           </div>
-          <div class="feature-card fade-up delay-2">
-            <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+          <!-- card 3 -->
+          <div class="feature-card" data-animate="fade-up" data-delay="100">
+            <div class="card-icon"><i class="fas fa-chart-line"></i></div>
             <h3>SEO Optimization</h3>
             <p>On-page SEO, speed optimization, content strategy for higher rankings.</p>
+            <div class="card-border-glow"></div>
           </div>
-          <div class="feature-card fade-up delay-3">
-            <div class="feature-icon"><i class="fas fa-ad"></i></div>
+          <!-- card 4 -->
+          <div class="feature-card" data-animate="fade-up" data-delay="150">
+            <div class="card-icon"><i class="fas fa-ad"></i></div>
             <h3>Digital Marketing</h3>
             <p>Google, Facebook, Instagram ad campaigns for conversions.</p>
+            <div class="card-border-glow"></div>
           </div>
-          <div class="feature-card fade-up">
-            <div class="feature-icon"><i class="fas fa-paint-brush"></i></div>
+          <!-- card 5 -->
+          <div class="feature-card" data-animate="fade-up">
+            <div class="card-icon"><i class="fas fa-paint-brush"></i></div>
             <h3>Graphic Design</h3>
             <p>Logos, banners, social posts, marketing creatives.</p>
+            <div class="card-border-glow"></div>
           </div>
-          <div class="feature-card fade-up delay-1">
-            <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+          <!-- card 6 -->
+          <div class="feature-card" data-animate="fade-up" data-delay="50">
+            <div class="card-icon"><i class="fas fa-mobile-alt"></i></div>
             <h3>Mobile Optimization</h3>
             <p>Fast loading, mobile-first responsive layouts.</p>
+            <div class="card-border-glow"></div>
           </div>
-          <div class="feature-card fade-up delay-2">
-            <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+          <!-- card 7 -->
+          <div class="feature-card" data-animate="fade-up" data-delay="100">
+            <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
             <h3>Website Security</h3>
             <p>SSL, firewall, malware protection, secure setup.</p>
+            <div class="card-border-glow"></div>
           </div>
-          <div class="feature-card fade-up delay-3">
-            <div class="feature-icon"><i class="fas fa-chart-bar"></i></div>
+          <!-- card 8 -->
+          <div class="feature-card" data-animate="fade-up" data-delay="150">
+            <div class="card-icon"><i class="fas fa-chart-bar"></i></div>
             <h3>Analytics & Tracking</h3>
             <p>Google Analytics & Search Console integration.</p>
+            <div class="card-border-glow"></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ### SERVICES SECTION (thumbnails) ### -->
+    <!-- ========== SERVICES · THUMBNAIL + OVERLAY ========== -->
     <section id="services" class="section services">
       <div class="container">
-        <div class="section-header fade-up">
+        <div class="section-header" data-animate="fade-up">
           <h2>Premium <span class="gradient-text">Services</span></h2>
-          <p>tailored solutions with stunning visuals</p>
+          <p class="subhead">Tailored solutions, executed with precision</p>
         </div>
         <div class="services-grid">
-          <div class="service-card fade-up">
-            <div class="service-img"><img src="assets/images/service-web.jpg" alt="web design" onerror="this.src='https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;"></div>
-            <div class="service-info">
-              <h3>WordPress Architect</h3>
-              <p>Custom themes, elementor, speed optimized.</p>
-              <a href="#" class="btn-service">View Details →</a>
+          <!-- service 1 -->
+          <div class="service-card" data-animate="fade-up">
+            <div class="service-media">
+              <img src="assets/images/service-web.jpg" alt="WordPress architecture" onerror="this.src='https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600'; this.onerror=null;">
+              <div class="service-overlay">
+                <div class="overlay-content">
+                  <h3>WordPress Architect</h3>
+                  <a href="#" class="btn-service">Explore Service →</a>
+                </div>
+              </div>
+            </div>
+            <div class="service-caption">
+              <span>Advanced CMS & custom themes</span>
             </div>
           </div>
-          <div class="service-card fade-up delay-1">
-            <div class="service-img"><img src="assets/images/service-shop.jpg" alt="ecommerce" onerror="this.src='https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;"></div>
-            <div class="service-info">
-              <h3>E‑commerce Pro</h3>
-              <p>WooCommerce, Shopify, secure carts.</p>
-              <a href="#" class="btn-service">View Details →</a>
+          <!-- service 2 -->
+          <div class="service-card" data-animate="fade-up" data-delay="80">
+            <div class="service-media">
+              <img src="assets/images/service-shop.jpg" alt="E‑commerce pro" onerror="this.src='https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600'; this.onerror=null;">
+              <div class="service-overlay">
+                <div class="overlay-content">
+                  <h3>E‑commerce Pro</h3>
+                  <a href="#" class="btn-service">Explore Service →</a>
+                </div>
+              </div>
+            </div>
+            <div class="service-caption">
+              <span>WooCommerce, Shopify, secure carts</span>
             </div>
           </div>
-          <div class="service-card fade-up delay-2">
-            <div class="service-img"><img src="assets/images/service-seo.jpg" alt="seo" onerror="this.src='https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;"></div>
-            <div class="service-info">
-              <h3>SEO & Speed</h3>
-              <p>First page rankings, core web vitals.</p>
-              <a href="#" class="btn-service">View Details →</a>
+          <!-- service 3 -->
+          <div class="service-card" data-animate="fade-up" data-delay="160">
+            <div class="service-media">
+              <img src="assets/images/service-seo.jpg" alt="SEO & speed" onerror="this.src='https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=600'; this.onerror=null;">
+              <div class="service-overlay">
+                <div class="overlay-content">
+                  <h3>SEO & Speed</h3>
+                  <a href="#" class="btn-service">Explore Service →</a>
+                </div>
+              </div>
+            </div>
+            <div class="service-caption">
+              <span>First-page rankings, core web vitals</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ### PORTFOLIO GRID ### -->
+    <!-- ========== PORTFOLIO · ADVANCED GRID / AGENCY SHOWCASE ========== -->
     <section id="portfolio" class="section portfolio">
       <div class="container">
-        <div class="section-header fade-up">
+        <div class="section-header" data-animate="fade-up">
           <h2>Recent <span class="gradient-text">Work</span></h2>
-          <p>each pixel tells a story</p>
+          <p class="subhead">Where aesthetics meet conversion</p>
         </div>
         <div class="portfolio-grid">
-          <div class="portfolio-item fade-up">
-            <img src="assets/images/portfolio1.jpg" alt="project 1" onerror="this.src='https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;">
-            <div class="overlay">
+          <div class="portfolio-item" data-animate="fade-up">
+            <img src="assets/images/portfolio1.jpg" alt="Luxury Fashion Store" onerror="this.src='https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=600'; this.onerror=null;">
+            <div class="portfolio-overlay">
               <h4>Luxury Fashion Store</h4>
-              <a href="#" class="portfolio-btn">View <i class="fas fa-arrow-right"></i></a>
+              <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
             </div>
           </div>
-          <div class="portfolio-item fade-up delay-1">
-            <img src="assets/images/portfolio2.jpg" alt="project 2" onerror="this.src='https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;">
-            <div class="overlay">
+          <div class="portfolio-item" data-animate="fade-up" data-delay="60">
+            <img src="assets/images/portfolio2.jpg" alt="Startup Landing" onerror="this.src='https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=600'; this.onerror=null;">
+            <div class="portfolio-overlay">
               <h4>Startup Landing</h4>
-              <a href="#" class="portfolio-btn">View <i class="fas fa-arrow-right"></i></a>
+              <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
             </div>
           </div>
-          <div class="portfolio-item fade-up delay-2">
-            <img src="assets/images/portfolio3.jpg" alt="project 3" onerror="this.src='https://images.pexels.com/photos/196655/pexels-photo-196655.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;">
-            <div class="overlay">
+          <div class="portfolio-item" data-animate="fade-up" data-delay="120">
+            <img src="assets/images/portfolio3.jpg" alt="News Portal" onerror="this.src='https://images.pexels.com/photos/196655/pexels-photo-196655.jpeg?auto=compress&cs=tinysrgb&w=600'; this.onerror=null;">
+            <div class="portfolio-overlay">
               <h4>News Portal</h4>
-              <a href="#" class="portfolio-btn">View <i class="fas fa-arrow-right"></i></a>
+              <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
             </div>
           </div>
-          <div class="portfolio-item fade-up">
-            <img src="assets/images/portfolio4.jpg" alt="project 4" onerror="this.src='https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;">
-            <div class="overlay">
+          <div class="portfolio-item" data-animate="fade-up" data-delay="180">
+            <img src="assets/images/portfolio4.jpg" alt="Real Estate Platform" onerror="this.src='https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=600'; this.onerror=null;">
+            <div class="portfolio-overlay">
               <h4>Real Estate Platform</h4>
-              <a href="#" class="portfolio-btn">View <i class="fas fa-arrow-right"></i></a>
+              <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ### RESUME / SKILLS + animated bars ### -->
+    <!-- ========== RESUME · SKILLS with ANIMATED PROGRESS ========== -->
     <section id="resume" class="section resume">
       <div class="container">
-        <div class="section-header fade-up">
+        <div class="section-header" data-animate="fade-up">
           <h2>Expertise <span class="gradient-text">Resume</span></h2>
-          <p>4+ years of sharpening skills</p>
+          <p class="subhead">4+ years of sharpening high‑impact skills</p>
         </div>
-        <div class="skills-wrapper fade-up">
+        <div class="skills-panel" data-animate="fade-up">
+          <!-- WordPress Skills -->
           <div class="skill-category">
-            <h3><i class="fab fa-wordpress"></i> WordPress Skills</h3>
-            <div class="skill-bar-item">
-              <span>Theme customization</span> <span class="skill-percent" data-width="92">92%</span>
-              <div class="progress-bar"><div class="progress-fill" style="width: 0%;"></div></div>
+            <div class="category-title">
+              <i class="fab fa-wordpress"></i>
+              <h3>WordPress Skills</h3>
             </div>
-            <div class="skill-bar-item">
-              <span>Elementor / Gutenberg</span> <span class="skill-percent" data-width="96">96%</span>
-              <div class="progress-bar"><div class="progress-fill" style="width: 0%;"></div></div>
-            </div>
-            <div class="skill-bar-item">
-              <span>WooCommerce</span> <span class="skill-percent" data-width="90">90%</span>
-              <div class="progress-bar"><div class="progress-fill" style="width: 0%;"></div></div>
+            <div class="skill-items">
+              <div class="skill-bar-item">
+                <span>Theme customization</span> <span class="skill-percent" data-width="92">92%</span>
+                <div class="progress-track"><div class="progress-fill"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <span>Elementor / Gutenberg</span> <span class="skill-percent" data-width="96">96%</span>
+                <div class="progress-track"><div class="progress-fill"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <span>WooCommerce</span> <span class="skill-percent" data-width="90">90%</span>
+                <div class="progress-track"><div class="progress-fill"></div></div>
+              </div>
             </div>
           </div>
+          <!-- SEO Expertise -->
           <div class="skill-category">
-            <h3><i class="fas fa-search"></i> SEO Expertise</h3>
-            <div class="skill-bar-item">
-              <span>On-page SEO</span> <span class="skill-percent" data-width="94">94%</span>
-              <div class="progress-bar"><div class="progress-fill" style="width: 0%;"></div></div>
+            <div class="category-title">
+              <i class="fas fa-search"></i>
+              <h3>SEO Expertise</h3>
             </div>
-            <div class="skill-bar-item">
-              <span>Technical SEO</span> <span class="skill-percent" data-width="88">88%</span>
-              <div class="progress-bar"><div class="progress-fill" style="width: 0%;"></div></div>
-            </div>
-            <div class="skill-bar-item">
-              <span>Content strategy</span> <span class="skill-percent" data-width="85">85%</span>
-              <div class="progress-bar"><div class="progress-fill" style="width: 0%;"></div></div>
+            <div class="skill-items">
+              <div class="skill-bar-item">
+                <span>On-page SEO</span> <span class="skill-percent" data-width="94">94%</span>
+                <div class="progress-track"><div class="progress-fill"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <span>Technical SEO</span> <span class="skill-percent" data-width="88">88%</span>
+                <div class="progress-track"><div class="progress-fill"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <span>Content strategy</span> <span class="skill-percent" data-width="85">85%</span>
+                <div class="progress-track"><div class="progress-fill"></div></div>
+              </div>
             </div>
           </div>
+          <!-- Digital Marketing Skills -->
           <div class="skill-category">
-            <h3><i class="fas fa-bullhorn"></i> Digital Marketing Skills</h3>
-            <div class="skill-bar-item">
-              <span>Google Ads</span> <span class="skill-percent" data-width="87">87%</span>
-              <div class="progress-bar"><div class="progress-fill" style="width: 0%;"></div></div>
+            <div class="category-title">
+              <i class="fas fa-bullhorn"></i>
+              <h3>Digital Marketing Skills</h3>
             </div>
-            <div class="skill-bar-item">
-              <span>Social Media Ads</span> <span class="skill-percent" data-width="91">91%</span>
-              <div class="progress-bar"><div class="progress-fill" style="width: 0%;"></div></div>
-            </div>
-            <div class="skill-bar-item">
-              <span>Conversion tracking</span> <span class="skill-percent" data-width="82">82%</span>
-              <div class="progress-bar"><div class="progress-fill" style="width: 0%;"></div></div>
+            <div class="skill-items">
+              <div class="skill-bar-item">
+                <span>Google Ads</span> <span class="skill-percent" data-width="87">87%</span>
+                <div class="progress-track"><div class="progress-fill"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <span>Social Media Ads</span> <span class="skill-percent" data-width="91">91%</span>
+                <div class="progress-track"><div class="progress-fill"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <span>Conversion tracking</span> <span class="skill-percent" data-width="82">82%</span>
+                <div class="progress-track"><div class="progress-fill"></div></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ### BLOG SECTION ### -->
+    <!-- ========== BLOG · AUTHORITY CARDS ========== -->
     <section id="blog" class="section blog">
       <div class="container">
-        <div class="section-header fade-up">
+        <div class="section-header" data-animate="fade-up">
           <h2>Insights & <span class="gradient-text">Blog</span></h2>
-          <p>latest from the lab</p>
+          <p class="subhead">Strategic thinking, shared</p>
         </div>
         <div class="blog-grid">
-          <article class="blog-card fade-up">
-            <div class="blog-img"><img src="assets/images/blog1.jpg" alt="blog" onerror="this.src='https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;"></div>
+          <article class="blog-card" data-animate="fade-up">
+            <div class="blog-img">
+              <img src="assets/images/blog1.jpg" alt="Core Web Vitals 2025" onerror="this.src='https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=600'; this.onerror=null;">
+            </div>
             <div class="blog-content">
               <h3>Core Web Vitals 2025</h3>
               <p>How we optimize LCP and CLS for WordPress.</p>
               <a href="#" class="read-more">Read More →</a>
             </div>
           </article>
-          <article class="blog-card fade-up delay-1">
-            <div class="blog-img"><img src="assets/images/blog2.jpg" alt="blog" onerror="this.src='https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;"></div>
+          <article class="blog-card" data-animate="fade-up" data-delay="80">
+            <div class="blog-img">
+              <img src="assets/images/blog2.jpg" alt="Ecommerce SEO Guide" onerror="this.src='https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600'; this.onerror=null;">
+            </div>
             <div class="blog-content">
               <h3>Ecommerce SEO Guide</h3>
               <p>Boost your store ranking with these tactics.</p>
               <a href="#" class="read-more">Read More →</a>
             </div>
           </article>
-          <article class="blog-card fade-up delay-2">
-            <div class="blog-img"><img src="assets/images/blog3.jpg" alt="blog" onerror="this.src='https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&w=400'; this.onerror=null;"></div>
+          <article class="blog-card" data-animate="fade-up" data-delay="160">
+            <div class="blog-img">
+              <img src="assets/images/blog3.jpg" alt="AI in Web Design" onerror="this.src='https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&w=600'; this.onerror=null;">
+            </div>
             <div class="blog-content">
               <h3>AI in Web Design</h3>
               <p>Using AI tools to speed up design process.</p>
@@ -282,16 +367,16 @@
       </div>
     </section>
 
-    <!-- ### PRICING - 3 CARDS ### -->
+    <!-- ========== PRICING · CONVERSION OPTIMIZED ========== -->
     <section id="pricing" class="section pricing">
       <div class="container">
-        <div class="section-header fade-up">
+        <div class="section-header" data-animate="fade-up">
           <h2>Simple <span class="gradient-text">Pricing</span></h2>
-          <p>no hidden fees, just results</p>
+          <p class="subhead">Transparent, value‑driven, results‑first</p>
         </div>
         <div class="pricing-grid">
-          <!-- basic card -->
-          <div class="pricing-card fade-up">
+          <!-- Basic card -->
+          <div class="pricing-card" data-animate="fade-up">
             <div class="pricing-badge">Basic</div>
             <div class="price"><span class="currency">$</span>80</div>
             <ul class="pricing-features">
@@ -305,8 +390,8 @@
             </ul>
             <a href="#" class="btn-pricing">Buy Now</a>
           </div>
-          <!-- standard card -->
-          <div class="pricing-card fade-up delay-1">
+          <!-- Standard card -->
+          <div class="pricing-card" data-animate="fade-up" data-delay="80">
             <div class="pricing-badge">Standard</div>
             <div class="price"><span class="currency">$</span>150</div>
             <ul class="pricing-features">
@@ -319,8 +404,9 @@
             </ul>
             <a href="#" class="btn-pricing">Buy Now</a>
           </div>
-          <!-- premium HIGHLIGHTED -->
-          <div class="pricing-card premium fade-up delay-2">
+          <!-- Premium (highlighted + badge) -->
+          <div class="pricing-card premium" data-animate="fade-up" data-delay="160">
+            <span class="popular-badge">Most Popular</span>
             <div class="pricing-badge">Premium</div>
             <div class="price"><span class="currency">$</span>300</div>
             <ul class="pricing-features">
@@ -338,46 +424,59 @@
       </div>
     </section>
 
-    <!-- ### CONTACT ME + social icons ### -->
+    <!-- ========== CONTACT · TWO-COLUMN CONVERSION ========== -->
     <section id="contact" class="section contact">
       <div class="container">
-        <div class="section-header fade-up">
+        <div class="section-header" data-animate="fade-up">
           <h2>Let's <span class="gradient-text">Connect</span></h2>
-          <p>tell me about your next big idea</p>
+          <p class="subhead">Tell me about your next big idea</p>
         </div>
-        <div class="contact-wrapper fade-up">
-          <form class="contact-form">
-            <div class="form-row">
-              <input type="text" placeholder="Your Name" required>
-              <input type="email" placeholder="Email Address" required>
+        <div class="contact-layout" data-animate="fade-up">
+          <!-- Left: info + social icons (clean) -->
+          <div class="contact-info">
+            <div class="info-card">
+              <span class="logo-text large">LOHIXIS</span>
+              <p class="tagline">Premium web artisan — results driven</p>
+              <div class="social-group">
+                <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              </div>
             </div>
-            <input type="text" placeholder="Subject">
-            <textarea rows="5" placeholder="Your Message"></textarea>
-            <button type="submit" class="btn btn-primary btn-submit">Submit</button>
-          </form>
-          <div class="social-links">
-            <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+          <!-- Right: form with micro-interactions -->
+          <div class="contact-form">
+            <form action="#" method="post">
+              <div class="form-row">
+                <input type="text" placeholder="Your name" required id="name">
+                <input type="email" placeholder="Email address" required id="email">
+              </div>
+              <input type="text" placeholder="Subject" id="subject">
+              <textarea rows="5" placeholder="Your message" id="message"></textarea>
+              <button type="submit" class="btn btn-primary btn-submit">
+                Send Message
+                <span class="btn-glow"></span>
+              </button>
+            </form>
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- ### FOOTER clean minimal ### -->
-  <footer id="footer">
-    <div class="container footer-content">
+  <!-- ========== FOOTER · MINIMAL, STRONG ========== -->
+  <footer class="footer">
+    <div class="container footer-container">
       <div class="footer-logo">
         <span class="logo-text">LOHIXIS</span>
       </div>
-      <p class="footer-tagline">premium web artisan · results driven</p>
-      <p class="copyright">© 2025 LOHIXIS. All rights reserved. high-end portfolio.</p>
+      <p class="footer-tagline">Premium web developer & digital strategist</p>
+      <p class="copyright">© 2025 LOHIXIS. All rights reserved. High‑end portfolio.</p>
     </div>
   </footer>
 
-  <!-- script load -->
+  <!-- JAVASCRIPT (lightweight, optimized) -->
   <script src="script.js"></script>
 </body>
 </html>
